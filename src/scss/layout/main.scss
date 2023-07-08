@@ -1,9 +1,12 @@
 .main{
     background: #F8F8F8;
     padding: 49px 0 110px;
+    position: relative;
     &__descr{
         max-width: 490px;
         width: 100%;
+        position: relative;
+        z-index: 1;
     }
     &__title{
         color: $mainColor;
@@ -53,6 +56,17 @@
             line-height: 26px;
             letter-spacing: -0.5px;
             text-transform: uppercase;
+        }
+    }
+    &__picture{
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 610px;
+        width: 100%;
+        z-index: 0;
+        img{
+            width: 100%;
         }
     }
 

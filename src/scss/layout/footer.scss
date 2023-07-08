@@ -1,0 +1,84 @@
+.footer{
+    padding: 59px 0 16px;
+    background: #344265;
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__logo{
+        margin-bottom: 64px;
+        max-width: 208px;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .number{
+        margin-bottom: 40px;
+    }
+    &__adress, &__mail{
+        margin-bottom: 32px;
+        color: #F8F8F8;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: -0.32px;
+    }
+    &__mail{
+        margin-bottom: 46px;
+    }
+    &__button{
+        margin-bottom: 75px;
+    }
+    &__menu{
+        margin-top: 51px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__list{
+        margin-bottom: 70px;
+        display: grid;
+        gap: 80px;
+        grid-template-columns: repeat(3, minmax(183px,197px));
+    }
+    &__item{
+        display: grid;
+        grid-template-rows: minmax(17px,24px);
+        grid-auto-rows: 17px;
+        row-gap: 10px;
+        &__title{
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 24px;
+            margin-bottom: 6px;
+        }
+        &__link{
+            color: #F8F8F8;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+    }
+    &__media{
+        display: flex;
+        justify-content: space-between;
+        max-width: 180px;
+        width: 100%;
+        &__item{
+            width: 30px;
+            height: 30px;
+            background-color: $whiteColor;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}
