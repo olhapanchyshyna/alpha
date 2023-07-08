@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', {
+    'title': 'Alpha'
+  })
+  <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__head">
+                <div class="header__logo">
+                    <img src="./images/icons/logo.svg" alt="logo">
+                </div>
+                <div class="header__search">
+                    <input type="text" name="search" placeholder="Enter City / Postal Code">
+                    <div class="header__search__icons"><img src="./images/icons/search.svg" alt="search"></div>
+                </div>
+                <div class="header__number">
+                    <div class="header__number__icon"><img src="./images/icons/yl-phone.svg" alt="phone"></div>
+                    <div class="header__number__phone">+1 226-370-0170</div>
+                </div>
+            </div>
+            <div class="header__footer">
+                <nav class="header__menu">
+                    <div class="header__item">Appliance Service</div>
+                    <div class="header__item">Brands</div>
+                    <div class="header__item">Maintance Plans</div>
+                    <div class="header__item">Coupons</div>
+                    <div class="header__item">Reviews</div>
+                    <div class="header__item">About</div>
+                    <div class="header__item">Contact</div>
+                </nav>
+                <button class="header__button btn">
+                    <img src="./images/icons/settings.svg" alt="settings">
+                    <div class="btn__text">BOOK ONLINE</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="main__descr">
+                    <h1 class="main__title">Appliance Repair Service</h1>
+                    <div class="main__subtitle">Your Local Appliance Repair Company</div>
+                    <div class="main__list">
+                        <div class="main__item">
+                            <div class="main__item__check"><img src="./images/icons/check-mark.svg" alt="checkbox"></div>
+                            <div class="main__item__text">Repair of any complexity of all brands of equipment</div>
+                        </div>
+                        <div class="main__item">
+                            <div class="main__item__check"><img src="./images/icons/check-mark.svg" alt="checkbox"></div>
+                            <div class="main__item__text">Affordable rates for various appliance repairs</div>
+                        </div>
+                        <div class="main__item">
+                            <div class="main__item__check"><img src="./images/icons/check-mark.svg" alt="checkbox"></div>
+                            <div class="main__item__text">Licensed, trained techs with years of experience</div>
+                        </div>
+                        <div class="main__item">
+                            <div class="main__item__check"><img src="./images/icons/check-mark.svg" alt="checkbox"></div>
+                            <div class="main__item__text">Same/next-day appointment</div>
+                        </div>
+                    </div>
+                    <div class="main__button">
+                        <img src="./images/icons/wh-phone.svg" alt="phone">
+                        <div class="btn__text">Request a call</div>
+                    </div>
+                </div>
+                <div class="main__picture"></div>
+            </div>
+        </section>
+    </main>
+   
+    
+    @@include('html/script.html', {})
+  </body>
+</html> 
