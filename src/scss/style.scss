@@ -16,7 +16,6 @@
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
-
 body{
     max-width: 1440px;
     width: 100%;
@@ -37,6 +36,7 @@ body{
     align-items: center;
     max-width: 180px;
     width: 100%;
+    transition: 0.8s all;
     &__text{
         color: $mainColor;
         font-size: 16px;
@@ -44,6 +44,10 @@ body{
         line-height: 26px;
         letter-spacing: -0.5px;
     }
+    &:hover{
+        transform: scale(1.2);
+    }
+        
 }
 .number{
     display: flex;
@@ -58,3 +62,5 @@ body{
         line-height: 24px;
     }
 }
+
+@import 'layout/media';

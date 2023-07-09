@@ -1,0 +1,118 @@
+@media screen and (max-width: 1015px){
+    .header{
+        .number{
+            display: none;
+        }
+        &__footer{
+            justify-content: center;
+            margin-top: 30px;
+        }
+        &__item{
+            font-size: 14px;
+        }
+        &__button{
+            display: none;
+       }
+       
+    }
+    .footer{
+        .container{
+            justify-content: space-around;
+        }
+        &__menu{
+            margin-top: 0px;
+            align-items: center;
+        }
+        &__list{
+            margin-bottom: 50px;
+            gap: 30px;
+            grid-template-columns: repeat(1, minmax(183px,197px));
+        }
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .main{
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__descr{
+            order: 2;
+        }
+        &__picture{
+            position: relative;
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .header{
+        height: 245px;
+        &__search{
+            width: 180px;
+            input{
+                font-size: 12px;
+                width: 120px;
+            }
+        }
+        &__menu{
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    .main{
+        padding: 49px 0 80px;
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__descr{
+            order: 2;
+        }
+        &__title{
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+        &__subtitle{
+            font-size: 16px;
+        }
+        &__list{
+            margin: 30px 0;
+            row-gap: 10px;
+        }
+        &__item{
+            &__text{
+                font-size: 14px;
+            }
+        }
+        &__picture{
+            position: relative;
+        }
+    }
+
+    .footer{
+        .container{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__logo{
+            margin-bottom: 40px;
+        }
+        .number{
+            margin-bottom: 20px;
+        }
+        &__adress, &__mail{
+            margin-bottom: 20px;
+        }
+        &__button{
+            margin-bottom: 40px;
+        }
+        &__menu{
+            margin-top: 60px;
+        }
+
+    }
+}

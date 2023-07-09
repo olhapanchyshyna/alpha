@@ -42,13 +42,9 @@
         }
     }
     &__button{
-        display: flex;
-        justify-content: space-between;
-        padding: 9px 22px;
-        max-width: 198px;
-        align-items: center;
-        border-radius: 12px;
-        background: #485982;
+        max-width: 198px !important;
+        width: 100% !important;
+        background: #485982 !important;
         &__text{
             color: $whiteColor;
             font-size: 16px;
